@@ -207,7 +207,7 @@ RUN_CLANG_STATIC_ANALYZER = YES
 SDKROOT = macosx
 
 // If enabled, don't install built products even if deployment locations are active.
-SKIP_INSTALL = YES
+SKIP_INSTALL = NO
 
 // The list of supported platforms from which a base SDK can be used. This setting is used if the product can be built for multiple platforms using different SDKs.
 SUPPORTED_PLATFORMS = macosx iphoneos iphonesimulator watchsimulator watchos appletvsimulator appletvos
