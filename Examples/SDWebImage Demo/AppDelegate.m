@@ -36,7 +36,7 @@
     if (@available(iOS 13, tvOS 13, macOS 10.15, watchOS 6, *)) {
         // For HEIC animated image. Animated image is new introduced in iOS 13, but it contains performance issue for now.
         [[SDImageCodersManager sharedManager] addCoder:[SDImageHEICCoder sharedCoder]];
-    }
+//    }
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     // Override point for customization after application launch.
